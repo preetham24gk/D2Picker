@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning Wheel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Spinning Wheel Game</h1>
+        <button id="resetButtonHeader">Reset</button>
+    </header>
+    <main>
+        <div class="wheel-container">
+            <canvas id="wheelCanvas1" width="500" height="500"></canvas>
+            <div class="arrow"></div>
+        </div>
+        <button id="spinButton1">Spin to Select Wepon</button>
+        <div id="selectedOption1"></div>
+
+        <div class="wheel-container wtwo">
+            <canvas id="wheelCanvas2" width="500" height="500"></canvas>
+            <div class="arrow"></div>
+        </div>
+        <button id="spinButton2" disabled>Spin for Second Wepon</button>
+        <div id="selectedOption2"></div>
+
+        <div class="wheel-container wtwo">
+            <canvas id="wheelCanvas3" width="500" height="500"></canvas>
+            <div class="arrow"></div>
+        </div>
+        <button id="spinButton3">Spin to set Ability</button>
+        <div id="selectedOption3"></div>
+
+        <div class="wheel-container wtwo">
+            <canvas id="wheelCanvas4" width="500" height="500"></canvas>
+            <div class="arrow"></div>
+        </div>
+        <button id="spinButton4">Spin For Subclass</button>
+        <div id="selectedOption4"></div>
+    </main>
+    <footer>
+        <button id="resetButtonFooter">Reset</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
